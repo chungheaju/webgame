@@ -1,0 +1,201 @@
+@charset "utf-8";
+/*=============== VARIABLES CSS ===============*/
+:root {
+    /*========== Colors ==========*/
+    --primary-color: #1e50d7;
+    --primary-color-second: #6789e4;
+    --container-color: #c9d6f6;
+    --background-color: #e7edfb;
+  
+    --title-color: hsl(var(--hue-color), 64%, 18%);
+    --text-color: hsl(var(--hue-color), 24%, 35%);
+    --text-color-light: hsl(var(--hue-color), 8%, 60%);
+    --input-color: hsl(var(--hue-color), 24%, 97%);
+    --body-color: hsl(var(--hue-color), 100%, 99%);
+    --white-color: #fff;
+    --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
+    --scroll-thumb-color: hsl(var(--hue-color), 12%, 75%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f5f7f8;
+    width: 100%;
+    color: #333;
+}
+/* 어바웃01 */
+.about01 {
+    position: relative;
+    height: 704px;
+    background-color: var(--background-color);
+}
+.about01 div {
+    position: absolute;
+}
+.about01 .ab01_tx {
+    left: 300px;
+    top: 89px;
+}
+.about01 .ab01_img {
+    top: 115px;
+    left: 1123px;
+}
+.about01 .ab01_img2 {
+    top: 201px;
+    left: 1226px;
+}
+/* 어바웃2 */
+.ab02 {
+    position: relative;
+    height: 1218px;
+    padding: 80px 0;
+}
+.ab02 {
+
+}
+.ab02 div {
+  position: absolute;    
+}
+.ab02 .ab02_img {
+    left: 300px;
+}
+.ab02 .ab02_tx {
+    left: 300px;
+    top: 250px;
+}
+.ab02 .ab02_tx .ab02_tx1 {
+
+}
+.ab02 .ab02_tx .ab02_tx2 {
+    top: 244px;
+}
+.ab02 .ab02_tx .ab02_tx3 {
+    top: 489px;
+}
+.ab02 .ab02_tx .ab02_tx4 {
+    top: 713px;
+}
+/* about me영역 */
+#about {
+    padding: 100px 0 50px;
+}
+.about .container {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+.about h2 {
+    color: rgb(54, 83, 216);
+    font-family: "BLOBERLY";
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 75px;
+    text-transform: uppercase;
+}
+.about-contents01 {
+    display: flex;
+    justify-content: space-between;
+    gap:70px;
+}
+.about-contents01 div {
+
+}
+.about-contents01 div h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.about-contents01 p {
+    padding-bottom: 20px;
+}
+/* left side */
+/* profile */
+.about-contents01 .about-info {
+    flex: 1;
+}
+.about-contents01 .about-info h3 {
+
+}
+.about-contents01 .about-info p {
+
+}
+.about-contents01 .about-info p .about-profile {
+    margin-bottom: 30px;
+}
+.about-contents01 .about-info p .about-profile > div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.about-contents01 .about-info p .about-profile > div span:nth-child(1) {
+    font-size: 15px;
+    font-weight: 600;
+}
+.about-contents01 .about-info p .about-profile > div span:nth-child(2) {
+    font-size: 15px;
+    font-weight: 500;
+}
+/* education */
+.about-contents01 .about-education {
+
+}
+.about-contents01 .about-education .edu-contents {
+    padding-left: 30px;
+    border-left: 4px solid var(--primary-color);
+}
+.about-contents01 .about-education .edu-contents .edu-contents-box {
+    background-color: var(--container-color);
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 20px;
+    cursor: pointer;
+    position: relative;
+}
+.about-contents01 .about-education .edu-contents .edu-contents-box::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 12px;
+    height: 14px;
+    background-color: var(--primary-color);
+    top: 21px;
+    left: -30px;
+}
+.about-contents01 .about-education .edu-contents .edu-contents-box::after {
+    content: "";
+    position: absolute;
+    left: -18px;
+    top: 21px;
+    border-width: 7px;
+    border-style: solid;
+    border-color: transparent, transparent, transparent var(--primary-color);
+}
+.about-contents01 .about-education .edu-contents .edu-contents-box span {
+    display: block;
+    color: var(--primary-color-second);
+    margin-bottom: 2px;
+}
+.about-contents01 .about-education .edu-contents .edu-contents-box h4 {
+    color: var(--primary-color-second);
+    font-size: 19px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+}
+.about-contents01 .about-education .edu-contents .edu-contents-box p {
+    line-height: 1.4;
+    color: var(--text-color);
+    font-size: 15px;
+}
+/* right side */
+.about-contents01 .about-character {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.about-contents01 .about-character div {
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+}

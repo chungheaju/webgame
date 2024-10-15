@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- ScrollReveal JS -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Chart.js cdn  -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- JS -->
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <!-- 어바웃01 -->
+    <div class="about01">
+      <div
+        class="ab01_tx"
+        data-aos="fade-right"
+        data-aos-duration="1000"
+        data-aos-delay="100"
+      >
+        <img src="img/ab_02_tx.png" alt="" />
+      </div>
+      <div
+        class="ab01_img"
+        data-aos="flip-up"
+        data-aos-duration="1000"
+        data-aos-delay="500"
+      >
+        <img src="img/ab_02_img.png" alt="" />
+      </div>
+      <div
+        class="ab01_img2"
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+        data-aos-delay="1000"
+      >
+        <img src="img/ab_02_img2.png" alt="" />
+      </div>
+    </div>
+    <!-- 어바웃02 -->
+    <div class="ab02">
+      <div class="ab02_img">
+        <img src="img/ab_04_img.png" alt="" />
+      </div>
+      <div class="ab02_tx">
+        <div class="ab02_tx1">
+          <img src="img/ab_04_1year.png" alt="" />
+        </div>
+        <div class="ab02_tx2">
+          <img src="img/ab_04_3year.png" alt="" />
+        </div>
+        <div class="ab02_tx3">
+          <img src="img/ab_04_5year.png" alt="" />
+        </div>
+        <div class="ab02_tx4">
+          <img src="img/ab_04_10year.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- about영역 -->
+    <section id="about" class="item">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-contents01">
+          <div class="about-info">
+            <div class="about-profile">
+              <h3>I AM</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Commodi eaque ea cum eius totam, ratione blanditiis ipsum,
+                adipisci odio sit minima at accusantium doloribus iste illum
+                maiores nobis. Nihil, iste?
+              </p>
+              <div>
+                <span>NAME:</span>
+                <span>홍길동</span>
+              </div>
+              <div>
+                <span>Age:</span>
+                <span>25 Years Old</span>
+              </div>
+              <div>
+                <span>Phone:</span>
+                <span>010-0000-0000</span>
+              </div>
+              <div>
+                <span>Birth:</span>
+                <span>1998. 05 .05</span>
+              </div>
+            </div>
+            <div class="about-education">
+              <h3>EDUCATION</h3>
+              <div class="edu-contents">
+                <div class="edu-content-box">
+                  <span>2022.12 - 2023.4</span>
+                  <h4>WEB-DESIGN</h4>
+                  <p>
+                    대구 윤성컴퓨터디자인DX아카데미 반응형UIUX 웹디자인&퍼블리셔
+                    실무양성과정1
+                  </p>
+                </div>
+                <div class="edu-content-box">
+                  <span>2024.05 - 2024.11</span>
+                  <h4>WEB-DESIGN</h4>
+                  <p>
+                    대구 윤성컴퓨터디자인DX아카데미 반응형UIUX 웹디자인&퍼블리셔
+                    실무양성과정2
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="about-character">
+            <h3 class="title">CHARACTER</h3>
+            <!-- radar chart -->
+            <div>
+              <canvas id="radar-chart"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
